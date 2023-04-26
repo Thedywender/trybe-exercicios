@@ -1,0 +1,28 @@
+body {
+    font-size: 18px;
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    background-color: brown;
+}
+ul {
+    background-color: rgb(34, 193, 247);
+
+}
+
+.change-color {
+    background-color: rgb(19, 197, 138);
+}
+
+p {
+    line-height: 60px;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 2em;
+    background-color: rgb(49, 149, 182);
+}
