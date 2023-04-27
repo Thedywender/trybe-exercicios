@@ -9,3 +9,27 @@ li.impar {
 li.par {
     color: green;
 }
+
+h1, h2, h3, h4{
+    color: red;
+    font-style: italic;
+    width: 220px;
+    border: 1px solid black;
+ }
+
+ li {
+    font-size: 20px;
+
+ }
+
+ li em {
+    font-weight: bold;
+ }
+
+ li.primeira, .segunda, .terceira {
+    color: blue;
+ }
+
+ li.segunda, .terceira {
+    background-color: pink;
+ }
