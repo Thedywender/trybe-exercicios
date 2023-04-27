@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+h1, p {
+    text-align: center;
+}
+ ol li:hover{
+    background-color: rgb(119, 116, 116);
+ }
+
+ ol li:active {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ ol,ul {
+    list-style: none;
+ }
