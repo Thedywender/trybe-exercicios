@@ -1,3 +1,23 @@
 div:hover {
     border: 5px solid red;
 }
+
+.primaria {
+    background-color: red;
+}
+
+.secundaria {
+    background-color: green;
+}
+
+.complementar {
+    background-color: purple;
+}
+
+.escura {
+    background-color: darkblue;
+}
+
+.clara {
+    background-color: lightgray;
+}
