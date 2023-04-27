@@ -1,5 +1,6 @@
 div:hover {
-    border: 5px solid red;
+    border: 5px solid rgb(24, 22, 22);
+    width: 150px;
 }
 
 .primaria {
@@ -20,4 +21,12 @@ div:hover {
 
 .clara {
     background-color: lightgray;
+}
+
+h3 {
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60px;
 }
