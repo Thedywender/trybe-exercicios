@@ -33,3 +33,30 @@ h1, h2, h3, h4{
  li.segunda, .terceira {
     background-color: pink;
  }
+
+ 
+ li.stackoverflow a:hover {
+    color: orange;
+ }
+
+ li.W3Schools a:hover {
+    color: green;
+ }
+
+ li.mdm a:hover {
+    color: black;
+ }
+
+ li.devdocs a:hover{
+    color: yellow;
+ }
+
+ li.trybe a:hover {
+    color: green;
+ }
+
+
+ li a:hover {
+    font-weight: bold;    
+   
+ }
