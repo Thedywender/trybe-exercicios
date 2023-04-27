@@ -2,11 +2,14 @@
     width: 200px;
     position: absolute;
     top: 120px;
-    left: 90px;
+    left: 250px;
   }
   
   .goomba {
     width: 100px;
+    position: absolute;
+    top: 415px;
+    left: 300px;
 
   }
   
