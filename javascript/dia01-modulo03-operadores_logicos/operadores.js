@@ -1,4 +1,4 @@
-let currentHour = 1;
+/* let currentHour = 1;
 let message;
 
 if (currentHour < 0 || currentHour > 24) {
@@ -17,4 +17,17 @@ if (currentHour < 0 || currentHour > 24) {
     message = "Não deveria estar acordado!!!"
 }
 
-console.log(message);
+console.log(message); */
+
+let weekDay = ["segunda-feira", "terça-feira", 'quarta-feira', 'quinta-feira', 'sextas-feira'];
+let weekEnds = ['sabado', 'domingo'];
+let day = weekDay[2];
+let message;
+
+if(day == weekDay[2]) {
+    message = "Oba, mais um dia de aprendizado na Trybe >:D"
+} else {
+    message = "FINALMENTE, descanso merecido! UwU!"
+}
+
+console.log(`${message} hoje é ${day}!`);
