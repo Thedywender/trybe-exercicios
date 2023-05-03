@@ -19,15 +19,15 @@ if (currentHour < 0 || currentHour > 24) {
 
 console.log(message); */
 
-let weekDay = ["segunda-feira", "terça-feira", 'quarta-feira', 'quinta-feira', 'sextas-feira'];
-let weekEnds = ['sabado', 'domingo'];
-let day = weekDay[2];
+let weekDay = ["Segunda-feira", "Terça-feira", 'Quarta-feira', 'Quinta-feira', 'Sexta-feira'];
+let weekEnds = ['sabado', 'Domingo'];
+let day = weekEnds[1];
 let message;
 
-if(day == weekDay[2]) {
+if(day == weekDay[0] || day == weekDay[1] || day == weekDay[2] || day == weekDay[3] || day == weekDay[4] ) {
     message = "Oba, mais um dia de aprendizado na Trybe >:D"
-} else {
+} else if(day == weekEnds[0] || weekEnds[1]) {
     message = "FINALMENTE, descanso merecido! UwU!"
-}
+};
 
 console.log(`${message} hoje é ${day}!`);
