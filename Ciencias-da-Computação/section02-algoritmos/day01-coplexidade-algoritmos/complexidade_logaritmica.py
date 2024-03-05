@@ -15,10 +15,10 @@ def binary_search(numbers, target):
         else: # caso contrário, atualiza o índice do inicio
             start = mid + 1
     
-    return -1 # Não encontrou? Retorna -1
+    return f"{target} não encontrado" # Não encontrou? Retorna a mensagem
 
 numbers = [2, 3, 4, 10, 40, 50, 60, 70, 80, 90, 100]
 target = 66
 
 result = binary_search(numbers, target)
-print(f"Elemento encontrado na posição: {result}")
+print(f"Elemento na posição: {result}")

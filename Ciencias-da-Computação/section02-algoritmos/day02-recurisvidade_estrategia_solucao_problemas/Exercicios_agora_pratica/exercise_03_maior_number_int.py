@@ -8,4 +8,4 @@ def biggest_number(numbers, tamanho):
         else:
             return biggest
         
-print(biggest_number([200, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10))
+print(biggest_number([10, 20, 30, 40, 70, 60, 100], 7))
