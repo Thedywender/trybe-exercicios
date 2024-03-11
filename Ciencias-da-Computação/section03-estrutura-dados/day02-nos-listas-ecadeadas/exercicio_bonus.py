@@ -26,7 +26,7 @@ class DoublyLinked:
         actual_last_value.next = new_last_value
         self.__length += 1
 
-    def index_of_duplicate(self, value):
+    def index_of_duplicate(self, value):  # complexidade O(n) percorre toda a lista
         position = 1
         current_value = self.head.next
         while current_value != self.tail:
@@ -36,7 +36,9 @@ class DoublyLinked:
             position += 1
         return -1
 
-    def delete_duplicates(linked_list_content):
+    def delete_duplicates(
+        linked_list_content,
+    ):  # complexidade O(n) percorre toda a lista
         list_with_unique_elements = DoublyLinked()
 
         while linked_list_content:
